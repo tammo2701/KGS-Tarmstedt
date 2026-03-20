@@ -98,6 +98,27 @@ kgs-tarmstedt/
 └── README.md               # Diese Datei
 ```
 
+---
+
+## 🚀 Lokal starten
+
+Kein Server nötig — einfach `index.html` im Browser öffnen:
+
+```bash
+# Repository klonen
+git clone https://github.com/dein-username/kgs-tarmstedt.git
+cd kgs-tarmstedt
+
+# Direkt öffnen (macOS)
+open index.html
+
+# Direkt öffnen (Linux)
+xdg-open index.html
+
+# Oder mit einem lokalen Dev-Server (empfohlen für korrekte Pfade)
+python3 -m http.server 8080
+# → http://localhost:8080
+```
 
 ---
 
@@ -165,13 +186,13 @@ python3 rebuild_all.py
 Dieses Projekt ist eine **private, nicht-kommerzielle Nachbildung** zu Übungszwecken. Es besteht **keine Verbindung** zur KGS Tarmstedt oder der Samtgemeinde Tarmstedt.
 
 - Texte & Inhalte: Eigentum der KGS Tarmstedt / Samtgemeinde Tarmstedt
-- Design & technische Umsetzung: Tammo Häbel
+- Design & technische Umsetzung: Privatperson (Schüler aus der Region)
 - Für verbindliche Informationen: [www.kgs-tarmstedt.de](https://www.kgs-tarmstedt.de)
 
 ---
 
 <div align="center">
 
-Gestaltet von **Tammo Häbel** &nbsp;·&nbsp; Keine offizielle Verbindung zur KGS Tarmstedt
+Gestaltet von einem Schüler aus der Region &nbsp;·&nbsp; Keine offizielle Verbindung zur KGS Tarmstedt
 
 </div>
